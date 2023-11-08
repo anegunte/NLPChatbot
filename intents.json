@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Sad to see you leave",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "age",
+      "pattern": ["how old are u", 
+        "age?", "what is ur age", 
+        "what is your age", 
+        "how old are u exactly?", 
+        "how age", "your age?"],
+      "responses" : ["Since I was just made, I'd like to say I am 1 month old!", 
+        "My owner's are 21 years of age", 
+        "I am 1 month young!", 
+        "I am still 1 month old but not a baby :>"]
+    },
+    {
+      "tag": "name",
+      "pattern": ["whats ur name?", "name?", 
+        "what should i call you", 
+        "what should i call you??", 
+        "what exactly should i call u?","what is your name?", 
+        "what is ur namee?", "can u tell me your name?"],
+      "responses": ["I am Savy!", "My name is Savy!", "You can call me Savy!",
+         "I'm Savy!", "You may call me Savy", "My name is Savy!"]
+    },
+    {
+      "tag": "services",
+      "pattern": ["what do you provide exactly?", 
+        "what services do you provide?", 
+        "whats the use of this system?",
+        "what can i do here?", 
+        "whats the service of thi software?", 
+        "whats the use of this app"],
+      "responses": ["I am your personal AI expense tracking friend! I will be helping you track your expenses, make better judgements for you and your spending's that might help you save money if you're trying to. I can also read your receipts and help keep a track where you spend exactly to help you save money. I'm here tp help!"]
+    },
+    {
+      "tag": "expenditure-month",
+      "pattern": ["what is my months expenditure? ", 
+        "how much did i spend this month", 
+        "whats my current expenditure for the month", 
+        "how much did i spend this month", 
+        "tell me my spending for this month"],
+      "responses": ["This month you've spent- ", "You've spent - "]
+    },
+    {
+      "tag": "expenditure-day",
+      "pattern": ["what is today's expenditure? ", 
+        "how much did i spend today", 
+        "whats my current expenditure for the day", 
+        "how much did i spend the whole of today", 
+        "tell me my spending for today"],
+      "responses": ["Today you've spent- ", 
+        "You've spent - ", 
+        "You've spent- today. Here is a list of where you spent your money- "]
+    },
+    {
+      "tag": "budget management",
+      "pattern": ["Give me a plan on how i can manage my expense", "Plan for budget management"],
+      "responses": ["Today you've spent- ", 
+        "You've spent - ", 
+        "You've spent- today. Here is a list of where you spent your money- "]
+    },
+    {
+      "tag": "spend alt travel auto",
+      "pattern": ["Give me the cheapest fair for Auto", 
+        "which is the cheapest auto rate app"],
+      "responses": ["Here is a list ranging from most expensive to least expensive fair prices for the apps- "]
+    },
+    {
+      "tag": "spend alt travel cab",
+      "pattern": ["Give me the cheapest fair for cab", 
+        "which is the cheapest cab rate app"],
+      "responses": ["Here is a list ranging from most expensive to least expensive fair prices for the apps- "]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
